@@ -1,0 +1,26 @@
+{
+  "variables": [
+    "lag_24",
+    "lag_48",
+    "lag_167",
+    "lag_168",
+    "lag_169",
+    "media_dia_ant",
+    "hora_dia",
+    "dia_semana",
+    "feriado",
+    "zona"
+  ],
+  "cuantiles": [
+    "p10",
+    "p20",
+    "p30",
+    "p40",
+    "p50",
+    "p60",
+    "p70",
+    "p80",
+    "p90"
+  ],
+  "fecha_futura": "2024-02-01"
+}

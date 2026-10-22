@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+xgboost>=2.0
+scikit-learn
+pandas
+pyarrow
+numpy

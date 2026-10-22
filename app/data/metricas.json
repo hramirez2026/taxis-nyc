@@ -1,0 +1,68 @@
+{
+  "entrenamiento_hasta": "2024-01-24",
+  "prueba": "2024-01-25 al 2024-01-31",
+  "horizonte_horas": 24,
+  "n_zonas_pronostico": 58,
+  "n_zonas_segmentadas": 100,
+  "n_grupos": 4,
+  "n_horas_zona_prueba": 9744,
+  "n_viajes_enero": 2964606,
+  "mae_modelo": 11.912399940696783,
+  "mae_ayer": 21.286330049261085,
+  "mae_semana": 11.881773399014778,
+  "mejora_vs_semana_pct": -0.2577606949190292,
+  "cobertura_80": 0.8988095238095238,
+  "cobertura_min_zona": 0.8095238095238095,
+  "cobertura_max_zona": 0.9642857142857143,
+  "umbral_error": 14.9,
+  "n_zonas_sin_pronostico": 205,
+  "pct_viajes_sin_pronostico": 0.022476848525571358,
+  "pct_sin_pronostico_fuera_manhattan": 0.9317073170731707,
+  "error_por_grupo": [
+    {
+      "grupo": "Aeropuertos y viajes largos",
+      "mae": 18.53,
+      "mae_semana": 20.056,
+      "cobertura": 0.871,
+      "viajes_hora": 100.996,
+      "n_zonas": 3
+    },
+    {
+      "grupo": "Manhattan central",
+      "mae": 12.452,
+      "mae_semana": 12.457,
+      "cobertura": 0.899,
+      "viajes_hora": 77.243,
+      "n_zonas": 44
+    },
+    {
+      "grupo": "Vida nocturna",
+      "mae": 10.058,
+      "mae_semana": 9.042,
+      "cobertura": 0.895,
+      "viajes_hora": 48.471,
+      "n_zonas": 8
+    },
+    {
+      "grupo": "Barrios periféricos",
+      "mae": 2.322,
+      "mae_semana": 2.849,
+      "cobertura": 0.929,
+      "viajes_hora": 5.97,
+      "n_zonas": 3
+    }
+  ],
+  "costos_semana_prueba": {
+    "cp": 40,
+    "co": 10,
+    "Recomendación (p80)": 2300030.0,
+    "Pronóstico central (p50)": 3241070.0,
+    "Igual que hace una semana": 3160950.0
+  },
+  "segmentacion": {
+    "k": 4,
+    "silueta": 0.4194224842377534,
+    "pca_pc1": 0.37734805096606794,
+    "pca_pc2": 0.2718858515158513
+  }
+}
