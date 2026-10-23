@@ -9,7 +9,7 @@ Pronóstico de demanda con incertidumbre, segmentación de zonas y recomendació
 - **Repositorio:** _(completar)_
 
 ## Estructura
-
+## edicion de prueba
 ```
 preparacion.ipynb   datos, modelos y métricas (genera todo lo de api/ y app/data/)
 api/                FastAPI: main.py, modelo_pronostico.ubj, demanda.parquet, zonas.csv, meta.json
